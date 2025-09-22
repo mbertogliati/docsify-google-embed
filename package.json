@@ -1,0 +1,47 @@
+{
+  "name": "@mbertogliati/docsify-google-embed",
+  "version": "1.0.0",
+  "description": "Docsify plugin to embed Google Docs, Sheets, and Slides via fenced code blocks with optional metadata.",
+  "main": "dist/google-embed.js",
+  "style": "dist/google-embed.css",
+  "unpkg": "dist/google-embed.js",
+  "jsdelivr": "dist/google-embed.js",
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "docsify",
+    "plugin",
+    "google",
+    "docs",
+    "sheets",
+    "slides",
+    "embed",
+    "docsify-plugin"
+  ],
+  "author": "mbertogliati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbertogliati/docsify-google-embed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbertogliati/docsify-google-embed/issues"
+  },
+  "homepage": "https://github.com/mbertogliati/docsify-google-embed#readme",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir -p dist",
+    "build": "npm run clean && cp src/google-embed.js dist/google-embed.js && cp src/google-embed.css dist/google-embed.css",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "docsify": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
