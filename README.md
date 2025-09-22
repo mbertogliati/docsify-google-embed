@@ -20,25 +20,25 @@ Add the plugin JS and CSS after Docsify on your page. You can use unpkg or jsDel
 <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 
 <!-- Plugin CSS -->
-<link rel="stylesheet" href="https://unpkg.com/docsify-google-embed/dist/google-embed.css"/>
-<!-- or: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-google-embed/dist/google-embed.css"/> -->
+<link rel="stylesheet" href="https://unpkg.com/@mbertogliati/docsify-google-embed/dist/google-embed.css"/>
+<!-- or: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mbertogliati/docsify-google-embed/dist/google-embed.css"/> -->
 
 <!-- Plugin JS -->
-<script src="https://unpkg.com/docsify-google-embed/dist/google-embed.js"></script>
-<!-- or: <script src="https://cdn.jsdelivr.net/npm/docsify-google-embed/dist/google-embed.js"></script> -->
+<script src="https://unpkg.com/@mbertogliati/docsify-google-embed/dist/google-embed.js"></script>
+<!-- or: <script src="https://cdn.jsdelivr.net/npm/@mbertogliati/docsify-google-embed/dist/google-embed.js"></script> -->
 ```
 
 ### Option 2: NPM
 
 ```bash
-npm i docsify-google-embed
+npm i @mbertogliati/docsify-google-embed
 ```
 
-Then include the files from `node_modules/docsify-google-embed/dist/` in your Docsify HTML template:
+Then include the files from `node_modules/@mbertogliati/docsify-google-embed/dist/` in your Docsify HTML template:
 
 ```html
-<link rel="stylesheet" href="/node_modules/docsify-google-embed/dist/google-embed.css"/>
-<script src="/node_modules/docsify-google-embed/dist/google-embed.js"></script>
+<link rel="stylesheet" href="/node_modules/@mbertogliati/docsify-google-embed/dist/google-embed.css"/>
+<script src="/node_modules/@mbertogliati/docsify-google-embed/dist/google-embed.js"></script>
 ```
 
 ## Usage

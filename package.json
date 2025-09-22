@@ -22,16 +22,16 @@
     "embed",
     "docsify-plugin"
   ],
-  "author": "",
+  "author": "mbertogliati",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER/docsify-google-embed.git"
+    "url": "git+https://github.com/mbertogliati/docsify-google-embed.git"
   },
   "bugs": {
-    "url": "https://github.com/USER/docsify-google-embed/issues"
+    "url": "https://github.com/mbertogliati/docsify-google-embed/issues"
   },
-  "homepage": "https://github.com/USER/docsify-google-embed#readme",
+  "homepage": "https://github.com/mbertogliati/docsify-google-embed#readme",
   "scripts": {
     "clean": "rm -rf dist && mkdir -p dist",
     "build": "npm run clean && cp src/google-embed.js dist/google-embed.js && cp src/google-embed.css dist/google-embed.css",
@@ -40,5 +40,8 @@
   },
   "peerDependencies": {
     "docsify": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
